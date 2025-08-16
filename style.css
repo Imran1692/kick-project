@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.main{
+    height: 100vh;
+    width: auto;
+    background-color: rgb(210, 249, 249);
+}
+.nav{
+    height: 150px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+.nav-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: auto;
+}
+.nav-one img{
+    height: 60px;
+    width: auto; 
+    display: flex;
+    margin-right: 40px; 
+} 
+.nav-one ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.nav-one ul li{
+    margin-right:40px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+/* search */
+.search{
+    display:flex
+}
+.contain{
+    display: flex;
+}
+.search i{
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contain-left h5{
+    display: flex;
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: 600;
+}
+.contain-left p{
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: 400;
+}
+.contain-left{
+    height: 100%;
+    width: 60%;
+    padding: 50px 100px;
+}
+.shop{
+    margin-top: 20px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    background-color: aqua;
+    color: rgb(23, 12, 12);
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+}
+.contain-right{
+    height: 100%;
+    width: 40%;
+    padding: 60px 90px;
+}
+.product{
+    height:320px;
+    width:250px;
+    background-color: rgb(207, 233, 231);
+    position: relative;
+}
+.product img{
+    height:90%;
+    width:100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 50px;
+}
+.product h2{
+    position: absolute;
+    text-transform: capitalize;
+    margin-top: 100%;
+}
+.catagori{
+    position: absolute;
+    margin-top: 110%;
+    font-weight: 700;
+}
+.price{
+    position: absolute;
+    margin-top: 118%;
+}
