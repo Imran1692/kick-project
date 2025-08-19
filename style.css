@@ -51,6 +51,8 @@ body{
     display:flex
 }
 .contain{
+    height: auto;
+    width: 100%;
     display: flex;
 }
 .search i{
@@ -71,7 +73,7 @@ body{
 }
 .contain-left{
     height: 100%;
-    width: 60%;
+    width: 50%;
     padding: 50px 100px;
 }
 .shop{
@@ -86,14 +88,23 @@ body{
 }
 .contain-right{
     height: 100%;
-    width: 40%;
+    width: 50%;
     padding: 60px 90px;
+    overflow-x: auto;
+}
+.contain-right::-webkit-scrollbar{
+    display: none;
+}
+.manage{
+    display:inline-flex;
 }
 .product{
     height:320px;
     width:250px;
     background-color: rgb(207, 233, 231);
     position: relative;
+    margin-right: 20px;
+
 }
 .product img{
     height:90%;
